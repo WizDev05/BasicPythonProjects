@@ -1,0 +1,8 @@
+bag = ["Water", "Bread"]
+print("You have been given a bag.")
+print("Here are the contents of the bag: ", bag)
+
+input1 = str(input("What do you want to add to your bag? "))
+bag.append(input1)
+
+print("Here is your bag now: ", bag)
