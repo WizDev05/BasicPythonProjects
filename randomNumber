@@ -1,0 +1,5 @@
+import random
+
+number = random.randint(1,10000)
+
+print("Your randomly generated number is: ", number)
