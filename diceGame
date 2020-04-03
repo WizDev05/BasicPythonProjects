@@ -1,0 +1,13 @@
+import random
+
+number = random.randint(1,6)
+
+print("I rolled a dice, guess which number I rolled")
+guess = int(input())
+
+if number == guess:
+    print("Congrats! You guessed my number")
+
+else:
+    print("You didn't guess my number.")
+    print("The number was", number)
