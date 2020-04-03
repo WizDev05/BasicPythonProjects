@@ -1,0 +1,6 @@
+import webbrowser
+
+print("Enter a URL you wish to visit")
+url = str(input())
+
+webbrowser.open(url)
