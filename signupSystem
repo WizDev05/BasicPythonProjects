@@ -1,0 +1,12 @@
+username = str(input("Enter a username: "))
+while len(username) <4:
+    print("Your username is too short! Please use more than 4 characters")
+    username = str(input("Enter a username: "))
+password = str(input("Enter a password: "))
+passwordRepeat = str(input("Repeat your password: "))
+while len(password) <5:
+    print("Your password is too short! Please use more than 5 characters")
+while password != passwordRepeat:
+    print("Those passwords don't match!")
+if password == passwordRepeat:
+    print("Login Successful")
